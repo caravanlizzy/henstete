@@ -1,0 +1,93 @@
+body {
+    background-image: url('welcome/hintergrund.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+
+.welcome-box {
+    width: 600px;
+    margin: auto;
+}
+
+.login-container {
+    margin: 50px auto;
+    width: 300px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-form > input {
+    padding: 8px;
+    border-radius: 10px;
+    margin: 8px;
+    border-style: solid;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px 60px 5px;
+}
+
+button:hover {
+    background-color: #aa5083ff;
+}
+
+.bg-pink {
+    background-color: #aa5083cc;
+}
+
+.green{
+    color: #04AA6D;
+}
+
+.pink {
+    color: #aa5083;
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.medium {
+    font-size: 20px;
+}
+
+.transparent-box {
+    background-color: #fefefe77;
+    border-radius: 12px;
+    padding: 20px 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.small-gap {
+    margin-top: 5px;
+}
